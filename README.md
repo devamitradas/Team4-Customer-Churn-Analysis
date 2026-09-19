@@ -39,6 +39,4 @@ Telecommunications Customer Churn Analysis project, Stage 2: Data Preparation an
 ### Stage2_Data_Preparation_and_Clustering.ipynb
 The full, executed notebook containing all code for data preparation and clustering — this is the source for every file and figure listed above.
 
-## Video Demonstration
 
-A 10–15 minute video walkthrough covering the preprocessed dataset, the train/test split, the scaling approach, the elbow method, the trained K-Means model, and the labeled cluster visualization is submitted alongside this repository (see submission link).
