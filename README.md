@@ -18,33 +18,34 @@ Final Report: Consolidating the project's methodology, analysis, findings, and c
 
 **Repository Structure**
 
+## Repository Structure
 
-
+```text
 Team4-Customer-Churn-Analysis/
-├── Data_Preparation/
-│   ├── preprocessed_dataset.csv
-│   ├── train_set.csv
-│   ├── test_set.csv
-│   ├── Train_Test_Split_Documentation.md
-│   └── Scaling_Techniques_Documentation.md
-│
-├── Clustering_Analysis/
-│   ├── kmeans_model.pkl
-│   ├── elbow_method.png
-│   ├── cluster_visualization.png
-│   ├── Optimal_Clusters_Documentation.md
-│   └── Cluster_Visualization_and_Labeling.md
-│
-├── Predictive_Modeling/
-│   └── Predictive modeling deliverables
-│
-├── Final_Report/
-│   └── Final project report and supporting deliverables
-│
-├── Dataset_ATS_v2.csv
-├── Stage2_Data_Preparation_and_Clustering.ipynb
-└── README.md
-
+|-- Data_Preparation/
+|   |-- preprocessed_dataset.csv
+|   |-- train_set.csv
+|   |-- test_set.csv
+|   |-- Train_Test_Split_Documentation.md
+|   `-- Scaling_Techniques_Documentation.md
+|
+|-- Clustering_Analysis/
+|   |-- kmeans_model.pkl
+|   |-- elbow_method.png
+|   |-- cluster_visualization.png
+|   |-- Optimal_Clusters_Documentation.md
+|   `-- Cluster_Visualization_and_Labeling.md
+|
+|-- Predictive_Modeling/
+|   `-- Your predictive modeling files
+|
+|-- Final_Report/
+|   `-- Your final report files
+|
+|-- Dataset_ATS_v2.csv
+|-- Stage2_Data_Preparation_and_Clustering.ipynb
+`-- README.md
+```
 
 Note: The Predictive_Modeling/ and Final_Report/ directories may contain additional files and subdirectories.
 
