@@ -16,35 +16,39 @@ Clustering Analysis: Applying K-Means clustering to explore customer segments an
 Predictive Modeling: Developing and evaluating machine learning models for customer churn analysis.
 Final Report: Consolidating the project's methodology, analysis, findings, and conclusions.
 
-**Repository Structure**
 
 ## Repository Structure
 
 ```text
 Team4-Customer-Churn-Analysis/
-|-- Data_Preparation/
-|   |-- preprocessed_dataset.csv
-|   |-- train_set.csv
-|   |-- test_set.csv
-|   |-- Train_Test_Split_Documentation.md
-|   `-- Scaling_Techniques_Documentation.md
-|
-|-- Clustering_Analysis/
-|   |-- kmeans_model.pkl
-|   |-- elbow_method.png
-|   |-- cluster_visualization.png
-|   |-- Optimal_Clusters_Documentation.md
-|   `-- Cluster_Visualization_and_Labeling.md
-|
-|-- Predictive_Modeling/
-|   `-- Your predictive modeling files
-|
-|-- Final_Report/
-|   `-- Your final report files
-|
-|-- Dataset_ATS_v2.csv
-|-- Stage2_Data_Preparation_and_Clustering.ipynb
-`-- README.md
+├── Data_Preparation/
+│   ├── preprocessed_dataset.csv
+│   ├── train_set.csv
+│   ├── test_set.csv
+│   ├── Train_Test_Split_Documentation.md
+│   └── Scaling_Techniques_Documentation.md
+│
+├── Clustering_Analysis/
+│   ├── kmeans_model.pkl
+│   ├── elbow_method.png
+│   ├── cluster_visualization.png
+│   ├── Optimal_Clusters_Documentation.md
+│   └── Cluster_Visualization_and_Labeling.md
+│
+├── Predictive_Modeling/
+│   ├── ANN Architecture Documentation.docx
+│   ├── Stage3_ANN_Churn_Prediction_PyTorch.ipynb
+│   └── ann_churn_model.pt
+│
+├── Final_Report/
+│   ├── Documentation of Limitations and Proposed Solutions.docx
+│   ├── Identification of Factors Contributing to Churn and Retention.docx
+│   ├── Recommendations for Targeted Retention Strategies.docx
+│   └── Summary of key findings.docx
+│
+├── Dataset_ATS_v2.csv
+├── Stage2_Data_Preparation_and_Clustering.ipynb
+└── README.md
 ```
 
 Note: The Predictive_Modeling/ and Final_Report/ directories may contain additional files and subdirectories.
