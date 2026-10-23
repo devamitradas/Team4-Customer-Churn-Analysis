@@ -15,10 +15,10 @@ Data Preparation: Cleaning, preprocessing, encoding, scaling, and splitting the 
 Clustering Analysis: Applying K-Means clustering to explore customer segments and visualize their characteristics.
 Predictive Modeling: Developing and evaluating machine learning models for customer churn analysis.
 Final Report: Consolidating the project's methodology, analysis, findings, and conclusions.
+
 Repository Structure
 
 Team4-Customer-Churn-Analysis/
-│
 ├── Data_Preparation/
 │   ├── preprocessed_dataset.csv
 │   ├── train_set.csv
@@ -34,14 +34,15 @@ Team4-Customer-Churn-Analysis/
 │   └── Cluster_Visualization_and_Labeling.md
 │
 ├── Predictive_Modeling/
-│   └── Predictive modeling deliverables
+│   └── [Your predictive modeling files]
 │
 ├── Final_Report/
-│   └── Final project report and supporting deliverables
+│   └── [Your final report files]
 │
 ├── Dataset_ATS_v2.csv
 ├── Stage2_Data_Preparation_and_Clustering.ipynb
 └── README.md
+
 Note: The Predictive_Modeling/ and Final_Report/ directories may contain additional files and subdirectories.
 
 Dataset
@@ -125,6 +126,7 @@ Documentation covering cluster selection, interpretation, and labeling.
 Predictive modeling deliverables.
 Final project report.
 Executed notebook documenting the Stage 2 data preparation and clustering workflow.
+
 Conclusion
 
 This project combines data preparation, customer segmentation, and predictive modeling to investigate telecommunications customer churn.
