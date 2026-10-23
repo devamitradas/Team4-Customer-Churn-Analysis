@@ -1,9 +1,9 @@
 # Customer Churn Analysis 
 
-Telecommunications Customer Churn Analysis
+**Telecommunications Customer Churn Analysis**
 A data analytics and machine learning project focused on understanding customer churn in the telecommunications industry through data preparation, customer segmentation, predictive modeling, and business-oriented analysis.
 
-Project Overview
+**Project Overview**
 
 Customer churn occurs when customers discontinue a service or subscription. Understanding the factors associated with churn helps telecommunications providers identify customer segments, investigate churn patterns, and make informed customer retention decisions.
 
@@ -16,7 +16,8 @@ Clustering Analysis: Applying K-Means clustering to explore customer segments an
 Predictive Modeling: Developing and evaluating machine learning models for customer churn analysis.
 Final Report: Consolidating the project's methodology, analysis, findings, and conclusions.
 
-Repository Structure
+**Repository Structure**
+
 
 Team4-Customer-Churn-Analysis/
 ├── Data_Preparation/
@@ -34,10 +35,10 @@ Team4-Customer-Churn-Analysis/
 │   └── Cluster_Visualization_and_Labeling.md
 │
 ├── Predictive_Modeling/
-│   └── [Your predictive modeling files]
+│   └── Predictive modeling deliverables
 │
 ├── Final_Report/
-│   └── [Your final report files]
+│   └── Final project report and supporting deliverables
 │
 ├── Dataset_ATS_v2.csv
 ├── Stage2_Data_Preparation_and_Clustering.ipynb
@@ -45,7 +46,7 @@ Team4-Customer-Churn-Analysis/
 
 Note: The Predictive_Modeling/ and Final_Report/ directories may contain additional files and subdirectories.
 
-Dataset
+**Dataset**
 
 The project uses a telecommunications customer dataset containing customer information, service subscriptions, contract details, billing information, tenure, and churn status.
 
@@ -53,7 +54,7 @@ Source dataset: Dataset_ATS_v2.csv
 Preprocessed dataset: [Data_Preparation/preprocessed_dataset.csv](Data_Preparation/preprocessed
 Project Workflow
 
-1. Data Preparation
+**1. Data Preparation**
 
 The data preparation stage prepares the dataset for machine learning by applying preprocessing techniques and organizing the data for training and evaluation.
 
@@ -66,7 +67,7 @@ Train_Test_Split_Documentation.md	Documents the splitting method, dataset sizes,
 Scaling_Techniques_Documentation.md	Explains the feature-scaling techniques and their rationale.
 The documented workflow uses an 80/20 stratified train-test split and scaled features. Refer to the accompanying documentation for details about the specific preprocessing and scaling methods.
 
-2. Clustering Analysis
+**2. Clustering Analysis**
 
 The clustering stage applies K-Means to explore customer groups with similar characteristics.
 
@@ -81,7 +82,7 @@ Optimal_Clusters_Documentation.md	Documents the elbow-method analysis and ration
 Cluster_Visualization_and_Labeling.md	Describes cluster profiles, labels, and associated business insights.
 These outputs support exploratory customer segmentation and help identify patterns that may inform customer retention strategies.
 
-3. Predictive Modeling
+**3. Predictive Modeling**
 
 The Predictive_Modeling/ directory contains the project's predictive modeling deliverables.
 
@@ -89,7 +90,7 @@ This stage focuses on applying machine learning techniques to investigate custom
 
 Predictive modeling complements clustering analysis: clustering explores customer groups, while supervised learning evaluates the ability to predict customer churn from available features.
 
-4. Final Report
+**4. Final Report**
 
 The Final_Report/ directory contains the consolidated reporting deliverables for the project.
 
@@ -97,13 +98,13 @@ This section presents the overall methodology, analysis, findings, conclusions, 
 
 The final report should be read alongside the supporting notebooks, datasets, and technical documentation for a complete understanding of the analysis.
 
-Main Notebook
+**Main Notebook**
 
 Stage2_Data_Preparation_and_Clustering.ipynb contains the executed Stage 2 workflow for data preparation and clustering.
 
 It provides the code and analysis associated with the preprocessing outputs, clustering methodology, and visualizations documented in the repository.
 
-Technology Stack
+**Technology Stack**
 
 The project uses a Python-based data science workflow, incorporating:
 
@@ -127,7 +128,7 @@ Predictive modeling deliverables.
 Final project report.
 Executed notebook documenting the Stage 2 data preparation and clustering workflow.
 
-Conclusion
+**Conclusion**
 
 This project combines data preparation, customer segmentation, and predictive modeling to investigate telecommunications customer churn.
 
