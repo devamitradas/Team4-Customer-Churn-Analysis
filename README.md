@@ -19,6 +19,7 @@ Final Report: Consolidating the project's methodology, analysis, findings, and c
 **Repository Structure**
 
 
+
 Team4-Customer-Churn-Analysis/
 ├── Data_Preparation/
 │   ├── preprocessed_dataset.csv
@@ -43,6 +44,7 @@ Team4-Customer-Churn-Analysis/
 ├── Dataset_ATS_v2.csv
 ├── Stage2_Data_Preparation_and_Clustering.ipynb
 └── README.md
+
 
 Note: The Predictive_Modeling/ and Final_Report/ directories may contain additional files and subdirectories.
 
